@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <meta-data android:name="roboguice.annotations.packages" android:value="org.jush.roboguice3test"/>
+        <meta-data android:name="roboguice.modules" android:value="org.jush.roboguice3test.GuiceModule"/>
         <activity
             android:name="org.jush.roboguice3test.MainActivity"
             android:label="@string/app_name" >
