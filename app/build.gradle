@@ -39,4 +39,8 @@ dependencies {
     compile 'org.roboguice:roboguice:3.0'
 }
 
+project.tasks.withType(JavaCompile) { task ->
+    options.compilerArgs << "-AguiceAnnotationDatabasePackageName=org.jush.roboguice3test"
+}
+
 
